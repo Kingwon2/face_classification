@@ -16,8 +16,8 @@ from utils.datasets import split_data
 from utils.preprocessor import preprocess_input
 
 # parameters
-batch_size = 32
-num_epochs = 10000
+batch_size = 64       ####수정## 배치사이즈 기존 32
+num_epochs = 2000     ####수정## 에포크 기존 10000
 input_shape = (64, 64, 1)
 validation_split = .2
 verbose = 1
